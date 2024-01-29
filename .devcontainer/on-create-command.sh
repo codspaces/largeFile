@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 
-yes "helloworld" | head -n 1000 > 1GBfile
+echo "hello" > hello_file.txt
