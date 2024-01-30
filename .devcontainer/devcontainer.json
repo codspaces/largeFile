@@ -1,9 +1,4 @@
 {
-  "name": "Ubuntu",
-  "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {
-      "version": "latest"
-    }
-  },
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
   "onCreateCommand": ".devcontainer/on-create-command.sh"
 }
